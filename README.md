@@ -36,3 +36,7 @@ npx wrangler dev
 - 不使用 R2
 - 不依赖本机 Android 服务器
 - 图片上传/照片管理不可用，接口会明确返回错误说明
+
+## 排障备注
+- 2026-10-01 本地与远端均已确认 `worker.js`、`lib/`、`wrangler.toml` 同步完整
+- 若 CI 仍报 `No event handlers`，重点检查 Cloudflare 构建是否复用了旧配置/旧快照
