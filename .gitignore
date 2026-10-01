@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 构建/临时文件
+.wrangler/
+dist/
+
+# 本地日志与缓存
+*.log
+logs/
+
+# 密钥/证书（绝对不要上传）
+*.pem
+*.key
+*.crt
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
